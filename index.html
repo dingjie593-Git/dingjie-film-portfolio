@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="丁洁室内设计作品集 · 影像能力">
+  <title>丁洁 · Film & Editing</title>
+  <style>
+    :root{--ink:#242622;--muted:#777b72;--olive:#727965;--line:#d9dbd3;--paper:#f8f8f5}
+    *{box-sizing:border-box}html{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif}
+    body{margin:0}.page{width:min(1180px,calc(100% - 40px));margin:auto;padding:44px 0 80px}
+    header{display:flex;justify-content:space-between;gap:32px;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid var(--line)}
+    .eyebrow,.section-label{font-size:13px;letter-spacing:.08em;color:var(--muted)}
+    h1{font-size:clamp(32px,5vw,64px);font-weight:400;line-height:1.03;margin:18px 0 12px;letter-spacing:-.03em}
+    .intro{max-width:620px;color:var(--muted);line-height:1.8;font-size:15px}.mark{font-family:Georgia,serif;font-size:25px;color:var(--olive)}
+    main{display:grid;gap:68px;padding-top:52px}.film{display:grid;grid-template-columns:230px 1fr;gap:34px;align-items:start}
+    .film-index{font-family:Georgia,serif;color:var(--olive);font-size:13px;letter-spacing:.12em}.film h2{font-size:28px;font-weight:400;margin:10px 0 6px}
+    .duration{font-family:Georgia,serif;color:var(--muted);font-size:15px}.desc{margin:20px 0 0;color:#55594f;line-height:1.75;font-size:14px}
+    .screen{background:#111;box-shadow:0 18px 45px rgba(32,35,29,.13);overflow:hidden;aspect-ratio:16/9}video{display:block;width:100%;height:100%;object-fit:contain;background:#111}
+    footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);margin-top:74px;padding-top:22px;color:var(--muted);font-size:12px;line-height:1.7}
+    a{color:inherit;text-decoration:none;border-bottom:1px solid #a9ad9f}
+    @media(max-width:760px){.page{width:min(100% - 24px,1180px);padding-top:22px}.mark{display:none}.film{grid-template-columns:1fr;gap:18px}main{gap:52px}.film h2{font-size:24px}.desc{max-width:580px}footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <div class="eyebrow">DING JIE · INTERIOR DESIGN PORTFOLIO</div>
+        <h1>影像构思、镜头编排与剪辑</h1>
+        <div class="intro">从空间动线出发组织镜头，以开场、转场与停留建立观看节奏。以下影像用于呈现空间叙事、材质细节与整体氛围。</div>
+      </div>
+      <div class="mark">Film &amp; Editing</div>
+    </header>
+    <main>
+      <article class="film">
+        <div>
+          <div class="film-index">FILM 01</div>
+          <h2>晨境里 <span lang="en">/ Chenjingli</span></h2>
+          <div class="duration">01:34</div>
+          <p class="desc">以空间动线组织镜头，控制开场、转场与停留节奏，完成影像构思与剪辑。</p>
+        </div>
+        <div class="screen"><video controls playsinline preload="metadata" poster="media/chenjingli-poster.png"><source src="media/chenjingli.mp4" type="video/mp4">当前浏览器不支持视频播放。</video></div>
+      </article>
+      <article class="film">
+        <div>
+          <div class="film-index">FILM 02</div>
+          <h2>漕河泾 <span lang="en">/ Caohejing</span></h2>
+          <div class="duration">03:21</div>
+          <p class="desc">围绕抵达、材质细节与共享空间组织镜头，完成画面筛选、节奏与剪辑。</p>
+        </div>
+        <div class="screen"><video controls playsinline preload="metadata" poster="media/caohejing-poster.png"><source src="media/caohejing.mp4" type="video/mp4">当前浏览器不支持视频播放。</video></div>
+      </article>
+    </main>
+    <footer><span>丁洁 · Interior Designer</span><span><a href="tel:15952051730">159 5205 1730</a> &nbsp;·&nbsp; <a href="mailto:1161337508@qq.com">1161337508@qq.com</a></span></footer>
+  </div>
+</body>
+</html>
